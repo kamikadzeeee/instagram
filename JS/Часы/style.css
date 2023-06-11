@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+body{
+    background-color: black;
+}
+.divB{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.time{
+    color:#00d9ff;
+    display:inline-block;
+    font-size: 80px;
+    /* font-family: 'Righteous', cursive; */
+    /* font-family: 'Monomaniac One', sans-serif; */
+    font-family: Orbitron;
+}
