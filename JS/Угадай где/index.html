@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай где</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="modal" id = "modal">
+        <div class="modal-content">
+            <div class="win">Вы выиграли !!!</div>
+            <div class="time" id="time"><br><br>Ваше время : 00:00</div>
+        </div>
+    </div>
+    <div class="centerDIV">
+        <div class="text">CLICK ANY CARD TO BEGIN</div>
+        <div class="timer" id="timer">00:00</div>
+    </div>
+    <div class="divIMG">
+        <img id="I1" onclick="check(this,1)" src="back.jpg">
+        <img id="I2" onclick="check(this,2)" src="back.jpg">
+        <img id="I3" onclick="check(this,3)" src="back.jpg">
+        <img id="I4" onclick="check(this,4)" src="back.jpg">
+        <img id="I5" onclick="check(this,5)" src="back.jpg">
+
+        <img id="I6" onclick="check(this,6)" src="back.jpg">
+        <img id="I7" onclick="check(this,7)" src="back.jpg">
+        <img id="I8" onclick="check(this,8)" src="back.jpg">
+        <img id="I9" onclick="check(this,9)" src="back.jpg">
+        <img id="I10" onclick="check(this,10)" src="back.jpg">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
